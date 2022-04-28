@@ -12,29 +12,35 @@
 		824581D9281A48580005C459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824581D8281A48580005C459 /* SceneDelegate.swift */; };
 		824581DB281A48580005C459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824581DA281A48580005C459 /* ViewController.swift */; };
 		824581DE281A48580005C459 /* fonts.conf in Resources */ = {isa = PBXBuildFile; fileRef = 824581DD281A48580005C459 /* fonts.conf */; };
-		824581E0281A48580005C459 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824581DF281A48580005C459 /* Ubuntu-R.ttf */; };
 		824581E2281A48580005C459 /* gst_ios_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 824581E1281A48580005C459 /* gst_ios_init.m */; };
-		824581E5281A48580005C459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824581E4281A48580005C459 /* main.m */; };
 		824581E8281A48580005C459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824581E6281A48580005C459 /* Main.storyboard */; };
 		824581EA281A485A0005C459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824581E9281A485A0005C459 /* Assets.xcassets */; };
 		824581ED281A485A0005C459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824581EB281A485A0005C459 /* LaunchScreen.storyboard */; };
+		824581F5281A4A4F0005C459 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 824581F4281A4A4F0005C459 /* Ubuntu-R.ttf */; };
+		824581F7281A4D4F0005C459 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 824581F6281A4D4E0005C459 /* libc++.tbd */; };
+		824581F9281A4D580005C459 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 824581F8281A4D580005C459 /* libiconv.tbd */; };
+		824581FF281A4F3D0005C459 /* GstBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 824581FE281A4F3D0005C459 /* GstBackend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		824581D0281A48580005C459 /* G2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		824581D3281A48580005C459 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = Library/Frameworks/GStreamer.framework; sourceTree = DEVELOPER_DIR; };
+		824581D3281A48580005C459 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Users/mac013/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework; sourceTree = DEVELOPER_DIR; };
 		824581D6281A48580005C459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824581D8281A48580005C459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		824581DA281A48580005C459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		824581DD281A48580005C459 /* fonts.conf */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = fonts.conf; path = ../fonts.conf; sourceTree = "<group>"; };
-		824581DF281A48580005C459 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-R.ttf"; path = "../Ubuntu-R.ttf"; sourceTree = "<group>"; };
-		824581E1281A48580005C459 /* gst_ios_init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = gst_ios_init.m; path = ../gst_ios_init.m; sourceTree = "<group>"; };
-		824581E3281A48580005C459 /* gst_ios_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gst_ios_init.h; path = ../gst_ios_init.h; sourceTree = "<group>"; };
-		824581E4281A48580005C459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		824581DD281A48580005C459 /* fonts.conf */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fonts.conf; sourceTree = "<group>"; };
+		824581E1281A48580005C459 /* gst_ios_init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gst_ios_init.m; sourceTree = "<group>"; };
+		824581E3281A48580005C459 /* gst_ios_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gst_ios_init.h; sourceTree = "<group>"; };
 		824581E7281A48580005C459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		824581E9281A485A0005C459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		824581EC281A485A0005C459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		824581EE281A485A0005C459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824581F4281A4A4F0005C459 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		824581F6281A4D4E0005C459 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		824581F8281A4D580005C459 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		824581FD281A4F3D0005C459 /* GstBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GstBackend.h; sourceTree = "<group>"; };
+		824581FE281A4F3D0005C459 /* GstBackend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GstBackend.m; sourceTree = "<group>"; };
+		82458202281A67470005C459 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824581F9281A4D580005C459 /* libiconv.tbd in Frameworks */,
+				824581F7281A4D4F0005C459 /* libc++.tbd in Frameworks */,
 				824581D4281A48580005C459 /* GStreamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +77,8 @@
 		824581D2281A48580005C459 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				824581F8281A4D580005C459 /* libiconv.tbd */,
+				824581F6281A4D4E0005C459 /* libc++.tbd */,
 				824581D3281A48580005C459 /* GStreamer.framework */,
 			);
 			name = Frameworks;
@@ -85,6 +95,9 @@
 				824581EB281A485A0005C459 /* LaunchScreen.storyboard */,
 				824581EE281A485A0005C459 /* Info.plist */,
 				824581DC281A48580005C459 /* Supporting Files */,
+				824581FD281A4F3D0005C459 /* GstBackend.h */,
+				824581FE281A4F3D0005C459 /* GstBackend.m */,
+				82458202281A67470005C459 /* BridgeHeader.h */,
 			);
 			path = G2;
 			sourceTree = "<group>";
@@ -92,11 +105,10 @@
 		824581DC281A48580005C459 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				824581F4281A4A4F0005C459 /* Ubuntu-R.ttf */,
 				824581DD281A48580005C459 /* fonts.conf */,
-				824581DF281A48580005C459 /* Ubuntu-R.ttf */,
 				824581E1281A48580005C459 /* gst_ios_init.m */,
 				824581E3281A48580005C459 /* gst_ios_init.h */,
-				824581E4281A48580005C459 /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				824581E8281A48580005C459 /* Main.storyboard in Resources */,
-				824581E0281A48580005C459 /* Ubuntu-R.ttf in Resources */,
+				824581F5281A4A4F0005C459 /* Ubuntu-R.ttf in Resources */,
 				824581EA281A485A0005C459 /* Assets.xcassets in Resources */,
 				824581ED281A485A0005C459 /* LaunchScreen.storyboard in Resources */,
 				824581DE281A48580005C459 /* fonts.conf in Resources */,
@@ -174,10 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824581E5281A48580005C459 /* main.m in Sources */,
 				824581E2281A48580005C459 /* gst_ios_init.m in Sources */,
 				824581DB281A48580005C459 /* ViewController.swift in Sources */,
 				824581D7281A48580005C459 /* AppDelegate.swift in Sources */,
+				824581FF281A4F3D0005C459 /* GstBackend.m in Sources */,
 				824581D9281A48580005C459 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,15 +335,16 @@
 		824581F2281A485A0005C459 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G6G7GN58R8;
-				FRAMEWORK_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"";
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
+				HEADER_SEARCH_PATHS = "\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
 				INFOPLIST_FILE = G2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -374,6 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.peemoti.G2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = G2/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,15 +396,16 @@
 		824581F3281A485A0005C459 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G6G7GN58R8;
-				FRAMEWORK_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk\"";
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "\"~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
+				HEADER_SEARCH_PATHS = "\"$(HOME)/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers\"";
 				INFOPLIST_FILE = G2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -433,6 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.peemoti.G2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = G2/BridgeHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

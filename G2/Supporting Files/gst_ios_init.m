@@ -1,5 +1,6 @@
 #include "gst_ios_init.h"
 
+#include <Foundation/Foundation.h>
 #include <gio/gio.h>
 
 #if defined(GST_IOS_PLUGIN_COREELEMENTS) || defined(GST_IOS_PLUGINS_CORE)
